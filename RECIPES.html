@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Food Recipe Website</title>
+        <link rel="stylesheet" href="style_project.css">
+    </head>
+    <body>
+        <div class="parallax">
+            <div class="nav">
+                <img src="logo.png" class="logo">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="RECIPES.html">RECIPES</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="W3-import">
+            <link rel="stylesheet" href="rec_style.css">
+            <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+                <div class="w3-quarter">
+                <a href="KTSW.html"><img src="https://pinchofyum.com/wp-content/uploads/kimchi-tuna-salad-4-768x1152.jpg" alt="Kimchi" style="width:100%">
+                <h3>Kimchi Tuna Salad Wrap</h3>
+                <p>Creamy, crunchy, tangy! It’s a Kimchi Tuna Salad Wrap! Packed with tuna, kewpie mayo, kimchi, avocado, cucumbers, and a bit of chili crisp – all snuggled into a wrap. So, so good!</p>
+                </a></div>
+                <div class="w3-quarter">
+                <a href="FP.html"><img src="https://pinchofyum.com/wp-content/uploads/Fruit-Pizza-Design-1-768x1152.jpg" alt="Fruit Pizza" style="width:100%">
+                <h3>Fruit Pizza</h3>
+                <p>This simple fruit pizza is beautiful and delicious! A soft sugar cookie crust with a cream cheese frosting and topped with sliced fruit. So simple and oh-so good!</p>
+                </a></div>
+                <div class="w3-quarter">
+                <a href="LBS.html"><img src="https://pinchofyum.com/wp-content/uploads/Bistro-Salad-61-2-768x1152.jpg" alt="Salad" style="width:100%">
+                <h3>Liz’s Bistro Salad</h3>
+                <p>Crunchy, light, bright, and ultra-fresh. This French-inspired bistro salad is an absolute star as a side for nearly any dinner. Tender greens, fresh herbs, pickled onions, and a delicate vinaigrette on top.</p>
+                </a></div>
+                <div class="w3-quarter">
+                <a href="GN.html"><img src="https://pinchofyum.com/wp-content/uploads/Gochujang-Noodles-4-768x1152.jpg" alt="Gochujang Noodles" style="width:100%">
+                <h3>Gochujang Noodles</h3>
+                <p>A spicy, peanutty, noodley bit of super easy comfort food! These gochujang noodles require just a handful of ingredients – like ramen noodles, peanut butter, sesame oil, and soy sauce – and come together in just 20 minutes.</p>
+                </a></div>
+            </div>
+            <div class="w3-center w3-padding-32">
+                <div class="w3-bar">
+                <a href="RECIPES.html" class="w3-bar-item w3-black w3-button">1</a>
+                <a href="RECIPE-2.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+                <a href="RECIPE-2.html" class="w3-bar-item w3-button w3-hover-black">»</a>
+                </div>
+            </div>
+            <div id="chef-container">
+                <div id="chef" class="chef"></div>
+                <div id="thought-bubble" class="thought-bubble">Hello!</div>
+              </div>
+              <script src="script.js"></script>
+            <hr>
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>Join Us on the Culinary Adventure!</h3>
+      <p>Whether you're a seasoned chef or a kitchen novice, there's always something exciting to discover at Food Delights. Join us on this culinary adventure, experiment with new recipes, and savor the joy of creating delicious memories.</p>
+      <p>Powered by <a href="https://rvu.edu.in/school-of-computer-science-and-engineering/">RV University</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="IMG_3706.jpeg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Mohammed Ismail</span><br>
+          <span><a href="https://www.linkedin.com/in/mohammed-ismail-747872277">Know more about me.</a></span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="IMG_4752.jpeg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Pema Tshering Sherpa</span><br>
+          <span><a href="https://www.linkedin.com/in/pema-sherpa-b8aa61215">Know more about me.</a></span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR DISHES</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom" class="w3-bar-item w3-black w3-button"><a href="KTSW.html">Kimchi Tuna Salad</a></span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom" class="w3-bar-item w3-black w3-hover-button"><a href="FP.html">Fruit Pizza</a></span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom" class="w3-bar-item w3-black w3-hover-button"><a href="LBS.html">Liz's Bistro Salad</a></span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom" class="w3-bar-item w3-black w3-hover-button"><a href="GN.html">Gochujang Noodles</a></span>
+      </p>
+    </div>
+    <p><div class="copyright" style="margin-top: 5px;"> &copy; 2023 Food Delights. All rights reserved.</div>
+  </footer>
+
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
